@@ -9,9 +9,10 @@ Nota: Hay que tener presente que si se pone un nombre más largo de 4 letras no 
 3. Poner Code . para que se nos abra en Visual: Code . 
 4. Luego en la terminal de Visual crear el entorno: python -m venv venv 
 5. Después activarlo: venv\Scripts\activate.
-6. Por último ejecuta el proyecto con: python main.py
+6. Activa las dependencias del proyecto con el código: pip install -r requirements.txt
+7. Por último ejecuta el proyecto con: python main.py
 
 # Uso del programa.
-Después de hacer el paso 6 anterior continuar...
+Después de hacer el paso 7 anterior continuar...
 1. El programa te pedirá en orden el nombre de 3 estudiantes más una nota, en el orden correspondiente.
 2. Luego de ello se genera un Excel donde al abrirlo se verán reflejados los nombres de los estudiantes (como lo mencioné antes, solo aceptan nombres con 4 letras o menos).
